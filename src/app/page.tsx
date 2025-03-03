@@ -1,5 +1,6 @@
 "use client";
 
+import { SlideAnimations } from "@/components/SlideAnimations";
 import { storyData } from "@/data/storyData";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
@@ -49,6 +50,9 @@ const Page = () => {
           exit={{ opacity: 0 }}
           className={`${currentStory.backgroundColor || "bg-gradient-to-b from-yellow-50 to-yellow-100"} relative grid size-full grid-cols-2 items-center gap-8 px-12 py-16`}
         >
+          {/* Add SlideAnimations component here */}
+          <SlideAnimations slideIndex={currentSlide} />
+
           {/* Text Content */}
           <motion.div
             className="relative z-10 flex flex-col items-start"
