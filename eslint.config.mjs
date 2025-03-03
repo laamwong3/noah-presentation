@@ -29,6 +29,7 @@ const eslintConfig = [
     rules: {
       "react-hooks/exhaustive-deps": "off",
       "@typescript-eslint/no-unused-vars": "warn",
+      "tailwindcss/no-custom-classname": "off",
     },
   },
 ];
