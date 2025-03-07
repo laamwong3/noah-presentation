@@ -1,5 +1,14 @@
 export const storyData = [
   {
+    title: "Bible Verse",
+    emoji: "📖",
+    content:
+      "「And God said, This is the sign of the covenant I am making between me and you and every living creature with you, a covenant for all generations to come: I have set my rainbow in the clouds, and it will be the sign of the covenant between me and the earth.」\n‭‭Genesis‬ ‭9‬:‭12‬-‭13‬",
+    imageSrc: "/images/bible.jpeg",
+    backgroundColor: "bg-gradient-to-b from-indigo-50 to-indigo-100",
+    titleColor: "text-indigo-600",
+  },
+  {
     title: "1. God Sees the World",
     emoji: "👀",
     content:
